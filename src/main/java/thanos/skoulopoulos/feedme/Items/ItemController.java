@@ -9,7 +9,6 @@ import java.util.ArrayList;
 public class ItemController {
 
     private ItemsRepository itemsRepository = new ItemsRepository();
-    private StoresRepository storesRepository = new StoresRepository();
 
         @RequestMapping(value = "/items", method = RequestMethod.GET)
         public ArrayList<Item> getItems(){
@@ -24,4 +23,9 @@ public class ItemController {
 
         }
 
+        @RequestMapping(value = "/items/{itemId}", method = RequestMethod.DELETE)
+        public  ArrayList<Item> removeItem(@PathVariable ("itemId") int itemId) {
+            itemsRepository.deleteItem(itemId);
+            return itemsRepository.getItems();
+        }
 }

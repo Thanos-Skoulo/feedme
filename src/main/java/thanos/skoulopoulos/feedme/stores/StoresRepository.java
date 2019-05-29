@@ -14,8 +14,18 @@ public class StoresRepository {
     }
 
     public void addStore(Store store) {
+        boolean idExists = false;
         if(store != null)
+            for(Store newStore: stores){
+                if(newStore.getId()==store.getId()){
+                    idExists = true;
+                }
+            }
+        if(idExists){
+            System.out.println("already exists");
+        }else{
             stores.add(store);
+        }
     }
 
     public void addAll(ArrayList<Store> stores) {

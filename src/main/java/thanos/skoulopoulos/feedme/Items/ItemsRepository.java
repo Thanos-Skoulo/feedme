@@ -16,7 +16,21 @@ public class ItemsRepository {
     }
 
     public void addItem(Item item) {
+        boolean idExists = false;
         if(item != null)
-        items.add(item);
+            for(Item newItem: items){
+                if(newItem.getItemId()==item.getItemId()){
+                    idExists = true;
+                }
+            }
+        if(idExists){
+            System.out.println("already exists");
+        }else{
+            items.add(item);
+        }
+    }
+
+    public void deleteItem(int itemId) {
+        items.removeIf(item -> item.getItemId() == itemId);
     }
 }
