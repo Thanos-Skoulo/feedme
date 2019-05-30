@@ -1,5 +1,6 @@
 package thanos.skoulopoulos.feedme.stores;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -7,7 +8,9 @@ import java.util.ArrayList;
 @RestController
 public class StoreController {
 
-    private StoresRepository storesRepository = new StoresRepository();
+    @Autowired
+    private StoresRepository storesRepository;
+
 
     @RequestMapping(value = "/stores", method = RequestMethod.GET)
     public ArrayList<Store> getStores(){
@@ -31,4 +34,13 @@ public class StoreController {
         storesRepository.deleteStore(id);
         return storesRepository.getStores();
     }
+
+    @RequestMapping(value = "/stores/{id}", method = RequestMethod.PUT)
+    public ArrayList<Store> changeStore(@PathVariable ("id") int id,@RequestBody Store newStore){
+        storesRepository.changeStore(id,newStore);
+        return storesRepository.getStores();
+    }
+
+
+
 }

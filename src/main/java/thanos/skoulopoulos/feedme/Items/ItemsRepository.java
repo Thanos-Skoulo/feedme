@@ -2,20 +2,20 @@ package thanos.skoulopoulos.feedme.Items;
 
 import java.util.ArrayList;
 
-public class ItemsRepository {
+class ItemsRepository {
 
     private ArrayList<Item> items;
 
-    public ItemsRepository() {
+    ItemsRepository() {
         items = new ArrayList<>();
     }
 
-    public ArrayList<Item> getItems() {
+    ArrayList<Item> getItems() {
 
         return items;
     }
 
-    public void addItem(Item item) {
+     void addItem(Item item) {
         boolean idExists = false;
         if(item != null)
             for(Item newItem: items){
@@ -30,7 +30,7 @@ public class ItemsRepository {
         }
     }
 
-    public void deleteItem(int itemId) {
+    void deleteItem(int itemId) {
         items.removeIf(item -> item.getItemId() == itemId);
     }
 }

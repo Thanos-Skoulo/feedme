@@ -1,7 +1,6 @@
 package thanos.skoulopoulos.feedme.Items;
 
 import org.springframework.web.bind.annotation.*;
-import thanos.skoulopoulos.feedme.stores.StoresRepository;
 
 import java.util.ArrayList;
 
