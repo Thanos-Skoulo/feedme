@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "storeName": "grigoris",
+    "storeAddress": "papagou 20",
+    "storeWebSite": "www.grigoris.gr"
+  },
+  {
+    "id": 2,
+    "storeName": "Goody\u0027s",
+    "storeAddress": "papagou 95",
+    "storeWebSite": "www.goodys.gr"
+  },
+  {
+    "id": 5,
+    "storeName": "Everest",
+    "storeAddress": "papandreou 30",
+    "storeWebSite": "www.everest.gr"
+  },
+  {
+    "id": 7,
+    "storeName": "grigoris",
+    "storeAddress": "papagou 20",
+    "storeWebSite": "www.grigoris.gr"
+  }
+]
