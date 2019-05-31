@@ -5,6 +5,10 @@ package thanos.skoulopoulos.feedme.stores;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -25,7 +29,7 @@ public class StoresRepository {
         return stores;
     }
 
-    void addStore(Store store) {
+    boolean addStore(Store store) {
         boolean idExists = false;
         if(store != null)
             for(Store newStore: stores){
@@ -33,15 +37,12 @@ public class StoresRepository {
                     idExists = true;
                 }
             }
-        if(idExists){
-            System.out.println("already exists");
-        }else{
+
+        if(!idExists){
             stores.add(store);
             saveToFile();
         }
-
-
-
+        return !idExists;
     }
 
     void addAll(ArrayList<Store> stores) {
@@ -49,9 +50,20 @@ public class StoresRepository {
         saveToFile();
     }
 
-    void deleteStore(int id) {
-        stores.removeIf(store -> store.getId()==id);
-        saveToFile();
+    boolean deleteStore(int id) {
+        Store storeToDelete = null;
+        boolean deleteStore = false;
+        for(Store store: stores){
+            if(store.getId() == id){
+                storeToDelete = store;
+            }
+        }
+        if(storeToDelete !=null){
+            stores.remove(storeToDelete);
+            deleteStore =true;
+            saveToFile();
+        }
+        return deleteStore;
     }
 
 
@@ -73,9 +85,10 @@ public class StoresRepository {
     private void saveToFile(){
         try
                 (FileWriter fileWriter =new FileWriter("SavedStores.json")){
-            Gson gson = new GsonBuilder().setPrettyPrinting().create();
-            gson.toJson(stores, fileWriter);
+                Gson gson = new GsonBuilder().setPrettyPrinting().create();
+                gson.toJson(stores, fileWriter);
         }catch (IOException e){
+
 
         }
     }

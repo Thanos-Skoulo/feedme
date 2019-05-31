@@ -1,7 +1,10 @@
 package thanos.skoulopoulos.feedme.stores;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import thanos.skoulopoulos.feedme.common.ApiResponse;
 
 import java.util.ArrayList;
 
@@ -17,10 +20,19 @@ public class StoreController {
         return storesRepository.getStores();
     }
 
-    @RequestMapping(value = "/stores/new",  method = RequestMethod.POST)
-    public ArrayList<Store> addStore(@RequestBody Store store){
-        storesRepository.addStore(store);
-        return storesRepository.getStores();
+
+//    @RequestMapping(value = "/stores/new",  method = RequestMethod.POST)
+//    public ArrayList<Store> addStore(@RequestBody Store store){
+//        storesRepository.addStore(store);
+//        return storesRepository.getStores();
+//    }
+
+    @RequestMapping(value = "/stores/new", method = RequestMethod.POST)
+    public ApiResponse<Store> addStore(@RequestBody Store store){
+        if(storesRepository.addStore(store)){
+            return new ApiResponse<>(store);
+        }else
+            return new ApiResponse<>("id already exists");
     }
 
     @RequestMapping(value = "/stores/all",  method = RequestMethod.POST)
@@ -30,9 +42,12 @@ public class StoreController {
     }
 
     @RequestMapping(value = "/stores/{id}", method = RequestMethod.DELETE)
-    public ArrayList<Store> deleteStore(@PathVariable ("id") int id){
-        storesRepository.deleteStore(id);
-        return storesRepository.getStores();
+    public ApiResponse<Integer> deleteStore(@PathVariable ("id") int id){
+        if(storesRepository.deleteStore(id)){
+            return new ApiResponse<>(id);
+        }else{
+            return new ApiResponse<>("this id doesn't exist");
+        }
     }
 
     @RequestMapping(value = "/stores/{id}", method = RequestMethod.PUT)
