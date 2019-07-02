@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7ce8f89-b2b1-4d1b-88f3-230b3ef1f20e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/common/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/feedme.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SavedStores.json" beforeDir="false" afterPath="$PROJECT_DIR$/SavedStores.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/Application$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/Application$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/Items/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/Items/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/Items/ItemsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/Items/ItemsRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/stores/StoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/stores/StoreController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/stores/StoresRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/thanos/skoulopoulos/feedme/stores/StoresRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoreController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoresRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoresRepository.java" afterDir="false" />
     </list>
@@ -41,29 +52,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+            <state relative-caret-position="977">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SavedStores.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/common/ApiResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -71,41 +64,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state relative-caret-position="202">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/Store.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoresRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+            <state relative-caret-position="728">
+              <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.6.RELEASE/1ae0d2f0262265869a8f15ea170a01d9d0583b79/spring-webmvc-5.1.6.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13311">
-              <caret line="900" selection-start-line="900" selection-end-line="900" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.6.RELEASE/1ae0d2f0262265869a8f15ea170a01d9d0583b79/spring-webmvc-5.1.6.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14926">
-              <caret line="944" selection-start-line="944" selection-end-line="944" />
             </state>
           </provider>
         </entry>
@@ -113,9 +105,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="60">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
+                <element signature="e#730#731#0" expanded="true" />
                 <element signature="e#766#767#0" expanded="true" />
                 <element signature="e#814#815#0" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
@@ -128,11 +121,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="320">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemsRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,52 +170,108 @@
         <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Store.java" />
         <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/StoresRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/StoreController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/ValidationCheck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemController.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/SaveService.java" />
         <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Save.json" />
-        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/ApiResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/common/ApiResponse.java" />
         <option value="$PROJECT_DIR$/SavedStores.json" />
-        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoreController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoresRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoreController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/Store.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
-    <option name="y" value="8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="68" />
+    <option name="y" value="23" />
     <option name="width" value="2068" />
     <option name="height" value="1172" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="feedme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feedme" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="feedme" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="feedme" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="feedme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feedme" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="feedme" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="feedme" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="feedme" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="feedme" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="feedme" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="feedme" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thanos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="feedme" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="feedme" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thanos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="skoulopoulos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="feedme" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="feedme" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thanos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="skoulopoulos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="feedme" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="feedme" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="feedme" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thanos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="skoulopoulos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="feedme" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Items" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="feedme" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="feedme" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="thanos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="skoulopoulos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="feedme" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="stores" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="feedme" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="feedme" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/Documents/Projects/feedme" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,11 +281,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FeedMeClient" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -237,9 +305,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="Application" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="thanos.skoulopoulos.feedme.Application" />
-      <module name="feedme.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,18 +327,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
+    <frame x="68" y="23" width="2068" height="1172" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17015968" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17324778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.54472363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2324074" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,7 +348,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32916266" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3287037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,59 +360,6 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32984033" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5184049" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3946102" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32916266" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoresRepository.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoresRepository.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoresRepository.java</url>
-          <line>86</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/feedme$Application.ic" NAME="Application Coverage Results" MODIFIED="1559307919210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -353,13 +370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/ValidationCheck.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/SaveService.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/ApiResult.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -368,70 +379,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.6.RELEASE/dfb9e2cce0376ed468b6988b88a08fa7fb43f355/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="199" selection-start-line="199" selection-end-line="199" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SavedStores.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.6.RELEASE/dfb9e2cce0376ed468b6988b88a08fa7fb43f355/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.6.RELEASE/1ae0d2f0262265869a8f15ea170a01d9d0583b79/spring-webmvc-5.1.6.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.6.RELEASE/1ae0d2f0262265869a8f15ea170a01d9d0583b79/spring-webmvc-5.1.6.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/common/ApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="450">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.6.RELEASE/1ae0d2f0262265869a8f15ea170a01d9d0583b79/spring-webmvc-5.1.6.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.4.RELEASE/fc28861fbd06b8aa6d151f8810a7748a86f1f155/spring-boot-2.1.4.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13311">
-          <caret line="900" selection-start-line="900" selection-end-line="900" />
+        <state relative-caret-position="-7125">
+          <caret line="158" column="13" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.6.RELEASE/1ae0d2f0262265869a8f15ea170a01d9d0583b79/spring-webmvc-5.1.6.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+    <entry file="file://$PROJECT_DIR$/SavedItems">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SavedStores.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14926">
-          <caret line="944" selection-start-line="944" selection-end-line="944" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
+            <element signature="e#730#731#0" expanded="true" />
             <element signature="e#766#767#0" expanded="true" />
             <element signature="e#814#815#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
@@ -443,27 +437,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        <state relative-caret-position="977">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoresRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+        <state relative-caret-position="728">
+          <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/stores/StoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thanos/skoulopoulos/feedme/Items/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -532,7 +554,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_101</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -5,10 +5,7 @@ package thanos.skoulopoulos.feedme.stores;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -89,7 +86,7 @@ public class StoresRepository {
                 gson.toJson(stores, fileWriter);
         }catch (IOException e){
 
-
+            e.printStackTrace();
         }
     }
 }

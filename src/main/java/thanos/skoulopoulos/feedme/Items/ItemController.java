@@ -1,5 +1,6 @@
 package thanos.skoulopoulos.feedme.Items;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -7,7 +8,10 @@ import java.util.ArrayList;
 @RestController
 public class ItemController {
 
-    private ItemsRepository itemsRepository = new ItemsRepository();
+    @Autowired
+    private ItemsRepository itemsRepository;
+
+
 
         @RequestMapping(value = "/items", method = RequestMethod.GET)
         public ArrayList<Item> getItems(){
@@ -27,4 +31,7 @@ public class ItemController {
             itemsRepository.deleteItem(itemId);
             return itemsRepository.getItems();
         }
+
+
+
 }

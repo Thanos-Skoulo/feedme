@@ -1,19 +1,29 @@
 package thanos.skoulopoulos.feedme.Items;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
-class ItemsRepository {
+public class ItemsRepository {
+
 
     private ArrayList<Item> items;
 
-    ItemsRepository() {
-        items = new ArrayList<>();
+    public ItemsRepository(ArrayList<Item> items) {
+        this.items = items;
     }
+
+
 
     ArrayList<Item> getItems() {
 
         return items;
     }
+
+
 
      void addItem(Item item) {
         boolean idExists = false;
@@ -28,9 +38,23 @@ class ItemsRepository {
         }else{
             items.add(item);
         }
+        saveItems();
     }
 
     void deleteItem(int itemId) {
         items.removeIf(item -> item.getItemId() == itemId);
     }
+
+    private void saveItems() {
+        try
+            (FileWriter fileWriter = new FileWriter("SavedItems.json")){
+                Gson gson = new GsonBuilder().setPrettyPrinting().create();
+                gson.toJson(items, fileWriter);
+            }catch (IOException e){
+            e.printStackTrace();
+
+        }
+
+    }
+
 }

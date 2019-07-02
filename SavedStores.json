@@ -10,5 +10,11 @@
     "storeName": "Goody\u0027s",
     "storeAddress": "papagou 95",
     "storeWebSite": "www.goodys.gr"
+  },
+  {
+    "id": 5,
+    "storeName": "grigoris21",
+    "storeAddress": "papagou 20",
+    "storeWebSite": "www.grigoris.gr"
   }
 ]
